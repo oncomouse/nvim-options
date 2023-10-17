@@ -1,4 +1,4 @@
-local augroup = vim.api.nvim_create_augroup("dotfiles-settings", { clear = true })
+local augroup = vim.api.nvim_create_augroup("nvim-options-augroup", { clear = true })
 local list_toggle = require("utils.functions").list_toggle
 
 -- Line Number Colors in default:
