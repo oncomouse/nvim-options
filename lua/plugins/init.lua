@@ -1,4 +1,4 @@
-require("config.options")
+require("nvim-options.config.options")
 
 return {
 	{ "folke/lazy.nvim", version = "*" },
