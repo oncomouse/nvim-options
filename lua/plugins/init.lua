@@ -1,3 +1,6 @@
+require("config.options")
+
 return {
-	{ "oncomouse/nvim-options" }
+	{ "folke/lazy.nvim", version = "*" },
+	{ "oncomouse/nvim-options", priority = 10000, lazy = false, config = true, cond = true, version = "*" }
 }
