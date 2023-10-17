@@ -1,5 +1,6 @@
 local list_toggle = require("utils.functions").list_toggle
 local grep_or_qfgrep = require("utils.functions").grep_or_qfgrep
+
 -- Navigation in insert mode:
 vim.keymap.set("i", "<C-a>", function()
 	local sc = vim.fn.col(".")

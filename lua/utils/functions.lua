@@ -1,4 +1,5 @@
 local M = {}
+
 function M.list_toggle(pfx, force_open)
 	local status
 	if pfx == "c" then
