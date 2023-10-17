@@ -1,5 +1,5 @@
 local augroup = vim.api.nvim_create_augroup("nvim-options-augroup", { clear = true })
-local list_toggle = require("utils.functions").list_toggle
+local list_toggle = require("nvim-options.utils.functions").list_toggle
 
 -- Line Number Colors in default:
 vim.api.nvim_create_autocmd("ColorScheme", { group = augroup, pattern = "default", command = "hi LineNr ctermfg=7" })

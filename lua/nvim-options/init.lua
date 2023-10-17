@@ -1,9 +1,9 @@
 local M = {}
 
 M.setup = function()
-	require("config.autocmds")
-	require("config.commands")
-	require("config.keymaps")
+	require("nvim-options.config.autocmds")
+	require("nvim-options.config.commands")
+	require("nvim-options.config.keymaps")
 end
 
 return M
