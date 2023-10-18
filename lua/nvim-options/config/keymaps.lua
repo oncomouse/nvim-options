@@ -73,4 +73,8 @@ vim.keymap.set("n", "<C-W>S", "<cmd>vsplit<cr>", { desc = "Split vertically" })
 -- Jump to last buffer:
 vim.keymap.set("n", "<leader><leader>", "<cmd>b#<cr>", { desc = "Jump to last buffer" })
 
+-- Emacs-style save in insert:
 vim.keymap.set("i", "<C-X><C-S>", "<c-o>:silent! w<cr>", { desc = "Save current buffer" })
+
+-- Load lazygit:
+vim.keymap.set("n", "<leader>lg", "<cmd>LazyGit<cr>", { desc = "Load lazygit" })

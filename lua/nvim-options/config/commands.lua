@@ -46,3 +46,5 @@ end, {
 	force = true,
 	nargs = 1,
 })
+
+vim.api.nvim_create_user_command("LazyGit", ":term lazygit<cr>", {})
